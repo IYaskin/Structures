@@ -11,7 +11,8 @@ import SwiftUI
 struct StructuresApp: App {
     
     init() {
-        ExampleFunctions.creatingAndLinkingNodes()
+        //ExampleFunctions.creatingAndLinkingNodes()
+        ExampleFunctions.LinkedListPush()
     }
     var body: some Scene {
         WindowGroup {

@@ -19,7 +19,17 @@ class ExampleFunctions {
         node2.next = node3
         print(node1)
         print("--- --- --- --- --- --- --- --- ---")
+    }
+    
+    static func LinkedListPush() {
+        print("--- linked list push ---")
+        var list = LinkedList<Int>()
+        list.push(3)
+        list.push(2)
+        list.push(1)
 
+        print(list)
+        print("--- --- --- --- --- --- --- --- ---")
     }
     
 }
