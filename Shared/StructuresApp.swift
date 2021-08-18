@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct StructuresApp: App {
+    
+    init() {
+        ExampleFunctions.creatingAndLinkingNodes()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
