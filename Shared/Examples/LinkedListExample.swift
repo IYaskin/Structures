@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LinkedListExampleFunctions {
+class LinkedListExample {
     
     // Node
     static func creatingAndLinkingNodes() {

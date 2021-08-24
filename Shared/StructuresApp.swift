@@ -12,20 +12,22 @@ struct StructuresApp: App {
     
     init() {
         // Node
-        //LinkedListExampleFunctions.creatingAndLinkingNodes()
+        //LinkedListExample.creatingAndLinkingNodes()
         
         // LinkedList
-        //LinkedListExampleFunctions.LinkedListPush()
-        //LinkedListExampleFunctions.LinkedListAppend()
-        //LinkedListExampleFunctions.LinkedListInserting()
-        //LinkedListExampleFunctions.LinkedListPop()
-        //LinkedListExampleFunctions.LinkedListRemoveLast()
-        //LinkedListExampleFunctions.LinkedListRemovingAfter()
-        //LinkedListExampleFunctions.LinkedListCollection()
-//        //LinkedListExampleFunctions.CopyOnWriteExample()
+        //LinkedListExample.LinkedListPush()
+        //LinkedListExample.LinkedListAppend()
+        //LinkedListExample.LinkedListInserting()
+        //LinkedListExample.LinkedListPop()
+        //LinkedListExample.LinkedListRemoveLast()
+        //LinkedListExample.LinkedListRemovingAfter()
+        //LinkedListExample.LinkedListCollection()
+//        //LinkedListExample.CopyOnWriteExample()
         
         //Stack
-        
+        //StackExample.usingStack()
+        //StackExample.initStackFromArray()
+        //StackExample.initStackFromArrayLiteral()
     }
     var body: some Scene {
         WindowGroup {
