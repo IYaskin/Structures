@@ -24,10 +24,23 @@ struct StructuresApp: App {
         //LinkedListExample.LinkedListCollection()
 //        //LinkedListExample.CopyOnWriteExample()
         
+        // DoublyLinkedList
+//        DoublyLinkedListExample.LinkedListPush()
+//        DoublyLinkedListExample.LinkedListAppend()
+//        DoublyLinkedListExample.LinkedListInserting()
+//        DoublyLinkedListExample.LinkedListPop()
+//        DoublyLinkedListExample.LinkedListRemoveLast()
+//        DoublyLinkedListExample.LinkedListRemovingAfter()
+//        DoublyLinkedListExample.LinkedListCollection()
+        
         //Stack
         //StackExample.usingStack()
         //StackExample.initStackFromArray()
         //StackExample.initStackFromArrayLiteral()
+        
+        //Queue
+        //1.Array
+        QueueExample.queueArray()
     }
     var body: some Scene {
         WindowGroup {

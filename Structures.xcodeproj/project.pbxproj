@@ -23,6 +23,14 @@
 		934EE97B26D4F2E5004860AA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97926D4F2E5004860AA /* Stack.swift */; };
 		934EE97D26D50090004860AA /* StackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97C26D50090004860AA /* StackExample.swift */; };
 		934EE97E26D50090004860AA /* StackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97C26D50090004860AA /* StackExample.swift */; };
+		934EE98126D508A9004860AA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98026D508A9004860AA /* Queue.swift */; };
+		934EE98226D508A9004860AA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98026D508A9004860AA /* Queue.swift */; };
+		934EE98426D517A3004860AA /* QueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98326D517A3004860AA /* QueueExample.swift */; };
+		934EE98526D517A3004860AA /* QueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98326D517A3004860AA /* QueueExample.swift */; };
+		934EE98726D51C3D004860AA /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98626D51C3D004860AA /* DoublyLinkedList.swift */; };
+		934EE98826D51C3D004860AA /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98626D51C3D004860AA /* DoublyLinkedList.swift */; };
+		934EE98A26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */; };
+		934EE98B26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,10 @@
 		9328882426CD2D8900F80BBF /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		934EE97926D4F2E5004860AA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		934EE97C26D50090004860AA /* StackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExample.swift; sourceTree = "<group>"; };
+		934EE98026D508A9004860AA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		934EE98326D517A3004860AA /* QueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExample.swift; sourceTree = "<group>"; };
+		934EE98626D51C3D004860AA /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
+		934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedListExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +124,9 @@
 			children = (
 				9328881D26CD1E5A00F80BBF /* Node.swift */,
 				9328882426CD2D8900F80BBF /* LinkedList.swift */,
+				934EE98626D51C3D004860AA /* DoublyLinkedList.swift */,
 				934EE97926D4F2E5004860AA /* Stack.swift */,
+				934EE98026D508A9004860AA /* Queue.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -121,7 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				9328882126CD299F00F80BBF /* LinkedListExample.swift */,
+				934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */,
 				934EE97C26D50090004860AA /* StackExample.swift */,
+				934EE98326D517A3004860AA /* QueueExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -226,9 +242,13 @@
 				934EE97D26D50090004860AA /* StackExample.swift in Sources */,
 				9328881E26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881126CD01AE00F80BBF /* ContentView.swift in Sources */,
+				934EE98126D508A9004860AA /* Queue.swift in Sources */,
 				9328882526CD2D8900F80BBF /* LinkedList.swift in Sources */,
+				934EE98726D51C3D004860AA /* DoublyLinkedList.swift in Sources */,
 				9328882226CD299F00F80BBF /* LinkedListExample.swift in Sources */,
 				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
+				934EE98426D517A3004860AA /* QueueExample.swift in Sources */,
+				934EE98A26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				9328880F26CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,9 +260,13 @@
 				934EE97E26D50090004860AA /* StackExample.swift in Sources */,
 				9328881F26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881226CD01AE00F80BBF /* ContentView.swift in Sources */,
+				934EE98226D508A9004860AA /* Queue.swift in Sources */,
 				9328882626CD2D8900F80BBF /* LinkedList.swift in Sources */,
+				934EE98826D51C3D004860AA /* DoublyLinkedList.swift in Sources */,
 				9328882326CD299F00F80BBF /* LinkedListExample.swift in Sources */,
 				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,
+				934EE98526D517A3004860AA /* QueueExample.swift in Sources */,
+				934EE98B26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				9328881026CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
