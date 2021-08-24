@@ -15,10 +15,12 @@
 		9328881426CD01AE00F80BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932887FE26CD01AE00F80BBF /* Assets.xcassets */; };
 		9328881E26CD1E5A00F80BBF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328881D26CD1E5A00F80BBF /* Node.swift */; };
 		9328881F26CD1E5A00F80BBF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328881D26CD1E5A00F80BBF /* Node.swift */; };
-		9328882226CD299F00F80BBF /* ExampleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882126CD299F00F80BBF /* ExampleFunctions.swift */; };
-		9328882326CD299F00F80BBF /* ExampleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882126CD299F00F80BBF /* ExampleFunctions.swift */; };
+		9328882226CD299F00F80BBF /* LinkedListExampleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882126CD299F00F80BBF /* LinkedListExampleFunctions.swift */; };
+		9328882326CD299F00F80BBF /* LinkedListExampleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882126CD299F00F80BBF /* LinkedListExampleFunctions.swift */; };
 		9328882526CD2D8900F80BBF /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882426CD2D8900F80BBF /* LinkedList.swift */; };
 		9328882626CD2D8900F80BBF /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328882426CD2D8900F80BBF /* LinkedList.swift */; };
+		934EE97A26D4F2E5004860AA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97926D4F2E5004860AA /* Stack.swift */; };
+		934EE97B26D4F2E5004860AA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97926D4F2E5004860AA /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +33,9 @@
 		9328880D26CD01AE00F80BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9328880E26CD01AE00F80BBF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9328881D26CD1E5A00F80BBF /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		9328882126CD299F00F80BBF /* ExampleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFunctions.swift; sourceTree = "<group>"; };
+		9328882126CD299F00F80BBF /* LinkedListExampleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListExampleFunctions.swift; sourceTree = "<group>"; };
 		9328882426CD2D8900F80BBF /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		934EE97926D4F2E5004860AA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +71,7 @@
 			children = (
 				932887FC26CD01AD00F80BBF /* StructuresApp.swift */,
 				932887FD26CD01AD00F80BBF /* ContentView.swift */,
-				9328882126CD299F00F80BBF /* ExampleFunctions.swift */,
+				9328882126CD299F00F80BBF /* LinkedListExampleFunctions.swift */,
 				932887FE26CD01AE00F80BBF /* Assets.xcassets */,
 				9328882026CD1E6500F80BBF /* Structures */,
 			);
@@ -106,6 +109,7 @@
 			children = (
 				9328881D26CD1E5A00F80BBF /* Node.swift */,
 				9328882426CD2D8900F80BBF /* LinkedList.swift */,
+				934EE97926D4F2E5004860AA /* Stack.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -210,7 +214,8 @@
 				9328881E26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881126CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9328882526CD2D8900F80BBF /* LinkedList.swift in Sources */,
-				9328882226CD299F00F80BBF /* ExampleFunctions.swift in Sources */,
+				9328882226CD299F00F80BBF /* LinkedListExampleFunctions.swift in Sources */,
+				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
 				9328880F26CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,7 +227,8 @@
 				9328881F26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881226CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9328882626CD2D8900F80BBF /* LinkedList.swift in Sources */,
-				9328882326CD299F00F80BBF /* ExampleFunctions.swift in Sources */,
+				9328882326CD299F00F80BBF /* LinkedListExampleFunctions.swift in Sources */,
+				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,
 				9328881026CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
