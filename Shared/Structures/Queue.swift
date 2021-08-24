@@ -48,4 +48,32 @@ extension QueueArray: CustomStringConvertible {
 }
 
 
-//DoubleLinkedList
+//DoubleLinkedList - не понял почему нельзя было просто на LL сделать
+//Despite O(1) performance, it suffers from high overhead. Each element has to have extra storage for the forward and back reference. Moreover, every time you create a new element, it requires a relatively expensive dynamic allocation. By contrast QueueArray does bulk allocation which is faster.
+class QueueDoublyLinkedList<T>: Queue {
+    private var list = DoublyLinkedList<T>()
+    init() {}
+    
+    func enqueue(_ element: T) -> Bool {
+        list.append(element)
+        return true
+    }
+    
+    func dequeue() -> T? {
+        return list.pop()
+    }
+    
+    var peek: T? {
+        return list[list.startIndex]
+    }
+    
+    var isEmpty: Bool {
+        return list.isEmpty
+    }
+}
+
+extension QueueDoublyLinkedList: CustomStringConvertible {
+    var description: String {
+        return list.description
+    }
+}

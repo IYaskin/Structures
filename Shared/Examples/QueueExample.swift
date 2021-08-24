@@ -20,4 +20,17 @@ class QueueExample {
         print(queue)
     }
     
+    static func queueDoubleLinkedList() {
+        var queue = QueueDoublyLinkedList<String>()
+        queue.enqueue("Ray")
+        queue.enqueue("Brian")
+        queue.enqueue("Eric")
+        print(queue)
+        queue.dequeue()
+        print(queue)
+        print("peek" + queue.peek!)
+        print(queue)
+    }
+
+    
 }

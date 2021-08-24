@@ -39,8 +39,8 @@ struct StructuresApp: App {
         //StackExample.initStackFromArrayLiteral()
         
         //Queue
-        //1.Array
         QueueExample.queueArray()
+        QueueExample.queueDoubleLinkedList()
     }
     var body: some Scene {
         WindowGroup {

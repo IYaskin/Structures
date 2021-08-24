@@ -99,25 +99,18 @@ struct DoublyLinkedList<Value> {
     }
     
     mutating func removeLast() -> Value? {
-        guard let head = head else {
-            return nil
-        }
-        
-        guard head.next != nil else {
+        guard head !== tail else {
             return pop()
         }
-        
-        var previousNode = head
-        var currentNode = head
-        
-        while let next = currentNode.next {
-            previousNode = currentNode
-            currentNode = next
+
+        guard let value = tail?.value,
+              let prev = tail?.prev else {
+            return nil
         }
-        
-        previousNode.next = nil
-        tail = previousNode
-        return currentNode.value
+
+        tail = prev
+        tail?.next = nil
+        return value
     }
     
     mutating func remove(after node: DoubleNode<Value>) -> Value? {
