@@ -18,6 +18,7 @@ struct LinkedList<Value> {
     }
     
     mutating func push (_ value: Value) {
+//        copyNodes можно не использовать
         head = Node(value: value, next: head)
         if tail == nil {
             tail = head
@@ -29,7 +30,7 @@ struct LinkedList<Value> {
             push(value)
             return
         }
-        
+//        copyNodes()
         tail!.next = Node(value: value)
         tail = tail!.next
     }
@@ -47,6 +48,7 @@ struct LinkedList<Value> {
     
     mutating func insert(_ value: Value,
                          after node: Node<Value>) -> Node<Value> {
+//        copyNodes()
         guard tail !== node else {
             append(value)
             return tail!
@@ -57,6 +59,7 @@ struct LinkedList<Value> {
     }
     
     mutating func pop() -> Value? {
+//        copyNodes()
         defer {
             head = head?.next
             if isEmpty {
@@ -67,6 +70,7 @@ struct LinkedList<Value> {
     }
     
     mutating func removeLast() -> Value? {
+//        copyNodes()
         guard let head = head else {
             return nil
         }
@@ -89,6 +93,7 @@ struct LinkedList<Value> {
     }
     
     mutating func remove(after node: Node<Value>) -> Value? {
+//        copyNodes()
         defer {
             if node.next === tail {
                 tail = node
@@ -98,7 +103,6 @@ struct LinkedList<Value> {
         return node.next?.value
     }
     
-
 }
 
 extension LinkedList: CustomStringConvertible {
@@ -109,3 +113,91 @@ extension LinkedList: CustomStringConvertible {
         return String(describing: head)
     }
 }
+
+extension LinkedList: Collection {
+    
+    struct Index: Comparable {
+        
+        var node: Node<Value>?
+        
+        static func ==(lhs: Index, rhs: Index) -> Bool {
+            switch (lhs.node, rhs.node) {
+            case let (left?, right?):
+                return left.next === right.next
+            case (nil, nil):
+                return true
+            default:
+                return false
+            }
+        }
+        
+        static func <(lhs: Index, rhs: Index) -> Bool {
+            guard lhs != rhs else {
+                return false
+            }
+            let nodes = sequence(first: lhs.node) { $0?.next }
+            return nodes.contains { $0 === rhs.node}
+        }
+
+    }
+    
+    var startIndex: Index {
+        return Index(node: head)
+    }
+    
+    var endIndex: Index {
+        return Index(node: tail?.next)
+    }
+    
+    func index(after i: Index) -> Index {
+        return Index(node: i.node?.next)
+    }
+    
+    subscript(position: Index) -> Value {
+        return position.node!.value
+    }
+}
+
+// COW
+//extension LinkedList {
+//    private mutating func copyNodes() {
+//        // дергается copynodes, когда head и tail одно тоже
+////        var headEqualTail = false
+////        if head === tail {
+////            headEqualTail = true
+////            tail = nil
+////        }
+//        
+//        guard !isKnownUniquelyReferenced(&head) else {
+////            if headEqualTail {
+////                tail = head
+////            }
+//            return
+//        }
+//
+////        if headEqualTail {
+////            tail = head
+////        }
+//
+//        guard var oldNode = head else {
+//            return
+//        }
+//
+//
+//
+//        print("copyNodes()")
+//
+//        head = Node(value: oldNode.value)
+//        var newNode = head
+//
+//        while let nextOldNode = oldNode.next {
+//            newNode!.next = Node(value: nextOldNode.value)
+//            newNode = newNode!.next
+//
+//            oldNode = nextOldNode
+//        }
+//
+//        tail = newNode
+//    }
+//
+//}

@@ -108,5 +108,110 @@ class ExampleFunctions {
         print(list)
         print("--- --- --- --- --- --- --- --- ---")
     }
+    
+    static func LinkedListCollection() {
+        print("--- linked list collection ---")
+        var list = LinkedList<Int>()
+        for i in 0...9 {
+            list.append(i)
+        }
+
+        print(list)
+        print("First: \(list[list.startIndex])")
+        print("First 3: \(Array(list.prefix(3)))")
+        print("Last 3: \(Array(list.suffix(3)))")
+
+        let sum = list.reduce(0, +)
+        print("Sum: \(sum)")
+        print("--- --- --- --- --- --- --- --- ---")
+
+    }
+    
+//    static func CopyOnWriteExample() {
+//        print("--- copy-on-write example ---")
+//
+////        print("Array COW")
+////        let array1 = [1, 2]
+////        var array2 = array1
+////
+////        print("array1: \(array1)")
+////        print("array2: \(array2)")
+////        print("after adding 3 to array2")
+////
+////        array2.append(3)
+////        print("array1: \(array1)")
+////        print("array2: \(array2)")
+////
+////        print("--- --- --- --- --- --- --- --- ---")
+//
+//
+//
+//        print("LinkedList COW without copyNodes in functions")
+//        var list1 = LinkedList<Int>()
+//        list1.push(1)
+////        list1.append(2)
+////        list1.append(3)
+////        list1.append(4)
+//
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+//
+//        var list2 = list1
+//        var list3 = list1
+//        print("List1: \(list1)")
+//        print("List2: \(list2)")
+//        print("List3: \(list3)")
+//
+////        print("List1: \(list1)")
+////        print("List2: \(list2)")
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////        print("List2 uniquely referenced: \(isKnownUniquelyReferenced(&(list2.head)))")
+//
+//        //print("after adding 5 to List2")
+//        //list2.append(5)
+//        list2.push(2)
+//        list3.push(3)
+//
+////        list3.pop()
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////        print("List2 uniquely referenced: \(isKnownUniquelyReferenced(&(list2.head)))")
+//        print("List1: \(list1)")
+//        print("List2: \(list2)")
+//        print("List3: \(list3)")
+//
+//        list1.append(10)
+//        list2.append(20)
+//        list3.append(30)
+//
+////        list3.pop()
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////        print("List2 uniquely referenced: \(isKnownUniquelyReferenced(&(list2.head)))")
+//        print("List1: \(list1)")
+//        print("List2: \(list2)")
+//        print("List3: \(list3)")
+//
+//
+//        print("Unfortunately, your linked list does not have value semantics! This is because your underlying storage uses a reference type (Node). This is a serious problem, as LinkedList is a struct and therefore should use value semantics. Implementing COW will fix this problem.")
+//        print("--- --- --- --- --- --- --- --- ---")
+//
+//
+////        print("LinkedList COW")
+////        var list1 = LinkedList<Int>()
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////        list1.append(1)
+////        list1.append(2)
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////        var list2 = list1
+////        print("List1 uniquely referenced: \(isKnownUniquelyReferenced(&(list1.head)))")
+////
+////        print("List1: \(list1)")
+////        print("List2: \(list2)")
+////        print("after adding 3 to List2")
+////        list2.append(3)
+////        print("List1: \(list1)")
+////        print("List2: \(list2)")
+////        print("--- --- --- --- --- --- --- --- ---")
+//
+//
+//    }
 
 }

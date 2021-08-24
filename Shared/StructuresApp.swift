@@ -20,8 +20,9 @@ struct StructuresApp: App {
         //ExampleFunctions.LinkedListInserting()
         //ExampleFunctions.LinkedListPop()
         //ExampleFunctions.LinkedListRemoveLast()
-        ExampleFunctions.LinkedListRemovingAfter()
-
+        //ExampleFunctions.LinkedListRemovingAfter()
+        //ExampleFunctions.LinkedListCollection()
+//        //ExampleFunctions.CopyOnWriteExample()
     }
     var body: some Scene {
         WindowGroup {
