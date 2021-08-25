@@ -32,5 +32,16 @@ class QueueExample {
         print(queue)
     }
 
+    static func queueRingBuffer() {
+        var queue = QueueRingBuffer<String>(count: 10)
+        queue.enqueue("Ray")
+        queue.enqueue("Brian")
+        queue.enqueue("Eric")
+        print(queue)
+        queue.dequeue()
+        print(queue)
+
+        print(queue.peek)
+    }
     
 }
