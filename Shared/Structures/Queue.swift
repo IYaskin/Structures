@@ -77,3 +77,24 @@ extension QueueDoublyLinkedList: CustomStringConvertible {
         return list.description
     }
 }
+
+
+//Ring buffer
+//Can you eliminate allocation overhead and main O(1) dequeues? If you don’t have to worry about your queue ever growing beyond a fixed size, you can use a different approach like the ring buffer. For example, you might have a game of Monopoly with five players. You can use a queue based on a ring buffer to keep track of whose turn is coming up next.
+
+
+//struct QueueRingBuffer<T>: Queue {
+//    private var ringBuffer: RingBuffer<T>
+//    
+//    init(count: Int) {
+//        ringBuffer = RingBuffer<T>(count: count)
+//    }
+//    
+//    var isEmpty: Bool {
+//        return ringBuffer.isEmpty
+//    }
+//    
+//    var peek: Element? {
+//        return ringBuffer.first
+//    }
+//}

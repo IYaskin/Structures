@@ -38,9 +38,12 @@ struct StructuresApp: App {
         //StackExample.initStackFromArray()
         //StackExample.initStackFromArrayLiteral()
         
+        //RingBuffer
+        RingBufferExample.ringBuffer()
+        
         //Queue
-        QueueExample.queueArray()
-        QueueExample.queueDoubleLinkedList()
+//        QueueExample.queueArray()
+//        QueueExample.queueDoubleLinkedList()
     }
     var body: some Scene {
         WindowGroup {
