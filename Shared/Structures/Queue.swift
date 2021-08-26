@@ -146,7 +146,7 @@ struct QueueStack<T>: Queue {
 
 extension QueueStack: CustomStringConvertible {
   public var description: String {
-    let printList = leftStack + rightStack.reversed()
+    let printList = rightStack.reversed() + leftStack 
     return printList.description
   }
 }

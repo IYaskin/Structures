@@ -45,7 +45,12 @@ struct StructuresApp: App {
 //        QueueExample.queueArray()
 //        QueueExample.queueDoubleLinkedList()
           //QueueExample.queueRingBuffer()
-        QueueExample.queueStack()
+//        QueueExample.queueStack()
+        
+        //Tree
+        //TreeExample.treeDepthFirst()
+        //TreeExample.treeLevelOrder()
+          TreeExample.treeSearch()
     }
     var body: some Scene {
         WindowGroup {
