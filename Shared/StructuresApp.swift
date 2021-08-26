@@ -50,7 +50,13 @@ struct StructuresApp: App {
         //Tree
         //TreeExample.treeDepthFirst()
         //TreeExample.treeLevelOrder()
-          TreeExample.treeSearch()
+          //TreeExample.treeSearch()
+        
+        BinaryTreeExample.treeDiagram()
+        BinaryTreeExample.inOrderTraversal()
+        BinaryTreeExample.preOrderTraversal()
+        BinaryTreeExample.postOrderTraversal()
+        
     }
     var body: some Scene {
         WindowGroup {
