@@ -112,3 +112,41 @@ extension QueueRingBuffer: CustomStringConvertible {
         return ringBuffer.description
     }
 }
+
+
+//TwoStack
+//The idea behind using two stacks is simple. Whenever you enqueue an element, it goes in the right stack. When you need to dequeue an element, you reverse the right stack and place it in the left stack so you can retrieve the elements using FIFO order.
+
+struct QueueStack<T>: Queue {
+    private var leftStack: [T] = []
+    private var rightStack: [T] = []
+    init() {}
+    
+    var isEmpty: Bool {
+        return leftStack.isEmpty && rightStack.isEmpty
+    }
+    
+    var peek: T? {
+        return !leftStack.isEmpty ? leftStack.last : rightStack.first
+    }
+    
+    mutating func enqueue(_ element: T) -> Bool {
+        rightStack.append(element)
+        return true
+    }
+    
+    mutating func dequeue() -> T? {
+        if leftStack.isEmpty {
+            leftStack = rightStack.reversed()
+            rightStack.removeAll()
+        }
+        return leftStack.popLast()
+    }
+}
+
+extension QueueStack: CustomStringConvertible {
+  public var description: String {
+    let printList = leftStack + rightStack.reversed()
+    return printList.description
+  }
+}

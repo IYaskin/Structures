@@ -44,7 +44,8 @@ struct StructuresApp: App {
         //Queue
 //        QueueExample.queueArray()
 //        QueueExample.queueDoubleLinkedList()
-          QueueExample.queueRingBuffer()
+          //QueueExample.queueRingBuffer()
+        QueueExample.queueStack()
     }
     var body: some Scene {
         WindowGroup {
