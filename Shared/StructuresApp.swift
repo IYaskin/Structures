@@ -52,11 +52,15 @@ struct StructuresApp: App {
         //TreeExample.treeLevelOrder()
           //TreeExample.treeSearch()
         
-        BinaryTreeExample.treeDiagram()
-        BinaryTreeExample.inOrderTraversal()
-        BinaryTreeExample.preOrderTraversal()
-        BinaryTreeExample.postOrderTraversal()
+//        BinaryTreeExample.treeDiagram()
+//        BinaryTreeExample.inOrderTraversal()
+//        BinaryTreeExample.preOrderTraversal()
+//        BinaryTreeExample.postOrderTraversal()
         
+//        BinarySearchTreeExample.createTree()
+//        BinarySearchTreeExample.findingNode()
+        BinarySearchTreeExample.removingNode()
+
     }
     var body: some Scene {
         WindowGroup {

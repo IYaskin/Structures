@@ -47,14 +47,11 @@ extension BinaryNode {
 
 }
 
-
-
-
-
-
-
-
-
+extension BinaryNode {
+    var min: BinaryNode {
+        return leftChild?.min ?? self
+    }
+}
 
 
 extension BinaryNode: CustomStringConvertible {
