@@ -59,7 +59,10 @@ struct StructuresApp: App {
         
 //        BinarySearchTreeExample.createTree()
 //        BinarySearchTreeExample.findingNode()
-        BinarySearchTreeExample.removingNode()
+//        BinarySearchTreeExample.removingNode()
+        
+//        AVLTreeExample.balancedInsert()
+//        AVLTreeExample.removingValue()
 
     }
     var body: some Scene {
