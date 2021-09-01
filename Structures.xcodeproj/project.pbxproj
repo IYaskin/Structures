@@ -23,6 +23,10 @@
 		93422D4F26DF72D300138100 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D4D26DF72D200138100 /* Trie.swift */; };
 		93422D5126DF823F00138100 /* TrieExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5026DF823F00138100 /* TrieExample.swift */; };
 		93422D5226DF823F00138100 /* TrieExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5026DF823F00138100 /* TrieExample.swift */; };
+		93422D5526DF9B3B00138100 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5426DF9B3B00138100 /* BinarySearch.swift */; };
+		93422D5626DF9B3B00138100 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5426DF9B3B00138100 /* BinarySearch.swift */; };
+		93422D5826DF9E9900138100 /* BinarySearchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5726DF9E9900138100 /* BinarySearchExample.swift */; };
+		93422D5926DF9E9900138100 /* BinarySearchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5726DF9E9900138100 /* BinarySearchExample.swift */; };
 		934647CA26D7A57800C7FA93 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647C926D7A57800C7FA93 /* TreeNode.swift */; };
 		934647CB26D7A57800C7FA93 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647C926D7A57800C7FA93 /* TreeNode.swift */; };
 		934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647CD26D7A7C200C7FA93 /* TreeExample.swift */; };
@@ -73,6 +77,8 @@
 		9328882426CD2D8900F80BBF /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		93422D4D26DF72D200138100 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		93422D5026DF823F00138100 /* TrieExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieExample.swift; sourceTree = "<group>"; };
+		93422D5426DF9B3B00138100 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		93422D5726DF9E9900138100 /* BinarySearchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchExample.swift; sourceTree = "<group>"; };
 		934647C926D7A57800C7FA93 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		934647CD26D7A7C200C7FA93 /* TreeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeExample.swift; sourceTree = "<group>"; };
 		934647D026D7D31700C7FA93 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
@@ -128,6 +134,7 @@
 				934EE97F26D500A2004860AA /* Examples */,
 				932887FE26CD01AE00F80BBF /* Assets.xcassets */,
 				9328882026CD1E6500F80BBF /* Structures */,
+				93422D5326DF9AF800138100 /* Algorithms */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -173,6 +180,14 @@
 			path = Structures;
 			sourceTree = "<group>";
 		};
+		93422D5326DF9AF800138100 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				93422D5426DF9B3B00138100 /* BinarySearch.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 		934647CC26D7A57E00C7FA93 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +213,7 @@
 				934647D926D8238A00C7FA93 /* BinarySearchTreeExample.swift */,
 				9356793C26DE8F30008A8268 /* AVLTreeExample.swift */,
 				93422D5026DF823F00138100 /* TrieExample.swift */,
+				93422D5726DF9E9900138100 /* BinarySearchExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -313,6 +329,8 @@
 				93422D4E26DF72D300138100 /* Trie.swift in Sources */,
 				934647DA26D8238A00C7FA93 /* BinarySearchTreeExample.swift in Sources */,
 				934647D126D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
+				93422D5526DF9B3B00138100 /* BinarySearch.swift in Sources */,
+				93422D5826DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794026DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
 				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
@@ -344,6 +362,8 @@
 				93422D4F26DF72D300138100 /* Trie.swift in Sources */,
 				934647DB26D8238A00C7FA93 /* BinarySearchTreeExample.swift in Sources */,
 				934647D226D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
+				93422D5626DF9B3B00138100 /* BinarySearch.swift in Sources */,
+				93422D5926DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794126DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CF26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
 				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,

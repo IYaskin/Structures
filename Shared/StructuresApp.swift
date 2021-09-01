@@ -66,8 +66,9 @@ struct StructuresApp: App {
         
         //TrieExample.insertAndContains()
         //TrieExample.remove()
-        TrieExample.prefixMatching()
+        //TrieExample.prefixMatching()
 
+        BinarySearchExample.findElement()
 
     }
     var body: some Scene {
