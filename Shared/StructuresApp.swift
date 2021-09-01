@@ -63,6 +63,11 @@ struct StructuresApp: App {
         
 //        AVLTreeExample.balancedInsert()
 //        AVLTreeExample.removingValue()
+        
+        //TrieExample.insertAndContains()
+        //TrieExample.remove()
+        TrieExample.prefixMatching()
+
 
     }
     var body: some Scene {
