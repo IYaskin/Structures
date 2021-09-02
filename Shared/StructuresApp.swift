@@ -68,7 +68,12 @@ struct StructuresApp: App {
         //TrieExample.remove()
         //TrieExample.prefixMatching()
 
-        BinarySearchExample.findElement()
+        //BinarySearchExample.findElement()
+        
+        //HeapExample.insertAndRemove()
+        //HeapExample.indexOf()
+        HeapExample.initFromArray()
+
 
     }
     var body: some Scene {
