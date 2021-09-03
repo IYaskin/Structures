@@ -55,6 +55,10 @@
 		934EE98B26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */; };
 		934EE98D26D53C1A004860AA /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98C26D53C1A004860AA /* RingBuffer.swift */; };
 		934EE98E26D53C1A004860AA /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE98C26D53C1A004860AA /* RingBuffer.swift */; };
+		9351003F26E22A9F009BD9CC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351003E26E22A9F009BD9CC /* PriorityQueue.swift */; };
+		9351004026E22A9F009BD9CC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351003E26E22A9F009BD9CC /* PriorityQueue.swift */; };
+		9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */; };
+		9351004326E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */; };
 		9355847226E0F10700D09F3C /* HeapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355847126E0F10700D09F3C /* HeapExample.swift */; };
 		9355847326E0F10700D09F3C /* HeapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355847126E0F10700D09F3C /* HeapExample.swift */; };
 		9356793A26DE89A3008A8268 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9356793926DE89A3008A8268 /* AVLNode.swift */; };
@@ -97,6 +101,8 @@
 		934EE98626D51C3D004860AA /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
 		934EE98926D528AA004860AA /* DoublyLinkedListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedListExample.swift; sourceTree = "<group>"; };
 		934EE98C26D53C1A004860AA /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+		9351003E26E22A9F009BD9CC /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueExample.swift; sourceTree = "<group>"; };
 		9355847126E0F10700D09F3C /* HeapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapExample.swift; sourceTree = "<group>"; };
 		9356793926DE89A3008A8268 /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
 		9356793C26DE8F30008A8268 /* AVLTreeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTreeExample.swift; sourceTree = "<group>"; };
@@ -183,6 +189,7 @@
 				934647CC26D7A57E00C7FA93 /* Tree */,
 				93422D4D26DF72D200138100 /* Trie.swift */,
 				93422D5A26DFA5ED00138100 /* Heap.swift */,
+				9351003E26E22A9F009BD9CC /* PriorityQueue.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -222,6 +229,7 @@
 				93422D5026DF823F00138100 /* TrieExample.swift */,
 				93422D5726DF9E9900138100 /* BinarySearchExample.swift */,
 				9355847126E0F10700D09F3C /* HeapExample.swift */,
+				9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -339,9 +347,11 @@
 				934647DA26D8238A00C7FA93 /* BinarySearchTreeExample.swift in Sources */,
 				934647D126D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
 				93422D5526DF9B3B00138100 /* BinarySearch.swift in Sources */,
+				9351003F26E22A9F009BD9CC /* PriorityQueue.swift in Sources */,
 				93422D5826DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794026DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
+				9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5B26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
 				934647D726D7DA7A00C7FA93 /* BinarySearchTree.swift in Sources */,
@@ -374,9 +384,11 @@
 				934647DB26D8238A00C7FA93 /* BinarySearchTreeExample.swift in Sources */,
 				934647D226D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
 				93422D5626DF9B3B00138100 /* BinarySearch.swift in Sources */,
+				9351004026E22A9F009BD9CC /* PriorityQueue.swift in Sources */,
 				93422D5926DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794126DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CF26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
+				9351004326E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5C26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,
 				934647D826D7DA7A00C7FA93 /* BinarySearchTree.swift in Sources */,

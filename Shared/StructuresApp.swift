@@ -72,7 +72,9 @@ struct StructuresApp: App {
         
         //HeapExample.insertAndRemove()
         //HeapExample.indexOf()
-        HeapExample.initFromArray()
+        //HeapExample.initFromArray()
+        
+        PriorityQueueExample.test()
 
 
     }
