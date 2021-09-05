@@ -74,8 +74,11 @@ struct StructuresApp: App {
         //HeapExample.indexOf()
         //HeapExample.initFromArray()
         
-        PriorityQueueExample.test()
-
+        //PriorityQueueExample.test()
+        
+        BubbleSortingExample.test()
+        SelectionSortingExample.test()
+        InsertionSortingExample.test()
 
     }
     var body: some Scene {
