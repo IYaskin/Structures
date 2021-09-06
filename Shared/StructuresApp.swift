@@ -76,9 +76,10 @@ struct StructuresApp: App {
         
         //PriorityQueueExample.test()
         
-        BubbleSortingExample.test()
-        SelectionSortingExample.test()
-        InsertionSortingExample.test()
+//        BubbleSortingExample.test()
+//        SelectionSortingExample.test()
+//        InsertionSortingExample.test()
+        MergeSortExample.test()
 
     }
     var body: some Scene {
