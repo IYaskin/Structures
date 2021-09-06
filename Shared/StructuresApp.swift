@@ -79,7 +79,8 @@ struct StructuresApp: App {
 //        BubbleSortingExample.test()
 //        SelectionSortingExample.test()
 //        InsertionSortingExample.test()
-        MergeSortExample.test()
+        //MergeSortExample.test()
+        RadixSortExample.test()
 
     }
     var body: some Scene {

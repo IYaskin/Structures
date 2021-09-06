@@ -65,6 +65,10 @@
 		935034A626E618260053039F /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034A426E618260053039F /* MergeSort.swift */; };
 		935034A826E61FC50053039F /* MergeSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034A726E61FC50053039F /* MergeSortExample.swift */; };
 		935034A926E61FC50053039F /* MergeSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034A726E61FC50053039F /* MergeSortExample.swift */; };
+		935034AB26E66F210053039F /* RadixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034AA26E66F210053039F /* RadixSort.swift */; };
+		935034AC26E66F210053039F /* RadixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034AA26E66F210053039F /* RadixSort.swift */; };
+		935034AE26E673E50053039F /* RadixSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034AD26E673E50053039F /* RadixSortExample.swift */; };
+		935034AF26E673E50053039F /* RadixSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935034AD26E673E50053039F /* RadixSortExample.swift */; };
 		9351003F26E22A9F009BD9CC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351003E26E22A9F009BD9CC /* PriorityQueue.swift */; };
 		9351004026E22A9F009BD9CC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351003E26E22A9F009BD9CC /* PriorityQueue.swift */; };
 		9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */; };
@@ -122,6 +126,8 @@
 		934EE98C26D53C1A004860AA /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
 		935034A426E618260053039F /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		935034A726E61FC50053039F /* MergeSortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortExample.swift; sourceTree = "<group>"; };
+		935034AA26E66F210053039F /* RadixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSort.swift; sourceTree = "<group>"; };
+		935034AD26E673E50053039F /* RadixSortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSortExample.swift; sourceTree = "<group>"; };
 		9351003E26E22A9F009BD9CC /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueExample.swift; sourceTree = "<group>"; };
 		9355847126E0F10700D09F3C /* HeapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapExample.swift; sourceTree = "<group>"; };
@@ -226,6 +232,7 @@
 				9356625726E37A6600E8A301 /* SelectionSort.swift */,
 				9347203E26E5080200D6A958 /* InsertionSort.swift */,
 				935034A426E618260053039F /* MergeSort.swift */,
+				935034AA26E66F210053039F /* RadixSort.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -270,6 +277,7 @@
 				9347203B26E5059600D6A958 /* SelectionSortExample.swift */,
 				9347204126E5080F00D6A958 /* InsertionSortExample.swift */,
 				935034A726E61FC50053039F /* MergeSortExample.swift */,
+				935034AD26E673E50053039F /* RadixSortExample.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -373,6 +381,7 @@
 			files = (
 				9356625426E3794000E8A301 /* BubbleSortingExample.swift in Sources */,
 				934EE97D26D50090004860AA /* StackExample.swift in Sources */,
+				935034AB26E66F210053039F /* RadixSort.swift in Sources */,
 				9328881E26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881126CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9356625826E37A6600E8A301 /* SelectionSort.swift in Sources */,
@@ -407,6 +416,7 @@
 				93422D5126DF823F00138100 /* TrieExample.swift in Sources */,
 				9347203F26E5080200D6A958 /* InsertionSort.swift in Sources */,
 				9328880F26CD01AE00F80BBF /* StructuresApp.swift in Sources */,
+				935034AE26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793D26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
 				9356793A26DE89A3008A8268 /* AVLNode.swift in Sources */,
 			);
@@ -418,6 +428,7 @@
 			files = (
 				9356625526E3794000E8A301 /* BubbleSortingExample.swift in Sources */,
 				934EE97E26D50090004860AA /* StackExample.swift in Sources */,
+				935034AC26E66F210053039F /* RadixSort.swift in Sources */,
 				9328881F26CD1E5A00F80BBF /* Node.swift in Sources */,
 				9328881226CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9356625926E37A6600E8A301 /* SelectionSort.swift in Sources */,
@@ -452,6 +463,7 @@
 				93422D5226DF823F00138100 /* TrieExample.swift in Sources */,
 				9347204026E5080200D6A958 /* InsertionSort.swift in Sources */,
 				9328881026CD01AE00F80BBF /* StructuresApp.swift in Sources */,
+				935034AF26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793E26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
 				9356793B26DE89A3008A8268 /* AVLNode.swift in Sources */,
 			);
