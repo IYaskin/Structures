@@ -69,5 +69,13 @@ class HeapExample {
           print(heap.remove()!)
         }
     }
+    
+    static func sort() {
+        print([6,12,2,26,8,18,21,9,5])
+        var heap = Heap(sort: >, elements: [6,12,2,26,8,18,21,9,5])
+        print(heap)
+        print("Sorted: \(heap.sorted())")
+    }
+
 
 }

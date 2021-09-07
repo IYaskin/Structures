@@ -80,7 +80,8 @@ struct StructuresApp: App {
 //        SelectionSortingExample.test()
 //        InsertionSortingExample.test()
         //MergeSortExample.test()
-        RadixSortExample.test()
+        //RadixSortExample.test()
+        HeapExample.sort()
 
     }
     var body: some Scene {

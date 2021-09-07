@@ -25,7 +25,7 @@ struct Heap<Element: Equatable> {
         
         if !elements.isEmpty {
             for i in stride(from: elements.count / 2 - 1, through: 0, by: -1) {
-                print(i)
+//                print(i)
                 siftDown(from: i)
             }
         }
@@ -67,8 +67,11 @@ struct Heap<Element: Equatable> {
         return elements.removeLast()
     }
     
-    mutating func siftDown(from index: Int) {
+    mutating func siftDown(from index: Int, upTo maxIndex: Int? = nil) {
         var parent = index
+        //my job
+        let count = maxIndex == nil ? count : maxIndex!
+        //
         while true {
             let left = leftChildIndex(ofParentAt: parent)
             let right = rightChildIndex(ofParentAt: parent)
@@ -82,7 +85,7 @@ struct Heap<Element: Equatable> {
                 candidate = right
             }
             if candidate == parent {
-                print(elements)
+//                print(elements)
 
                 return
             }
