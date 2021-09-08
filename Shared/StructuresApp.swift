@@ -81,7 +81,8 @@ struct StructuresApp: App {
 //        InsertionSortingExample.test()
         //MergeSortExample.test()
         //RadixSortExample.test()
-        HeapExample.sort()
+        //HeapExample.sort()
+        QuickSortExample.test()
 
     }
     var body: some Scene {

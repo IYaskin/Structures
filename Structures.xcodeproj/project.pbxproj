@@ -31,6 +31,10 @@
 		93422D5C26DFA5ED00138100 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93422D5A26DFA5ED00138100 /* Heap.swift */; };
 		9345530C26E75B1200C0F4BE /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345530B26E75B1200C0F4BE /* HeapSort.swift */; };
 		9345530D26E75B1200C0F4BE /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345530B26E75B1200C0F4BE /* HeapSort.swift */; };
+		9345530F26E778DE00C0F4BE /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345530E26E778DE00C0F4BE /* QuickSort.swift */; };
+		9345531026E778DE00C0F4BE /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345530E26E778DE00C0F4BE /* QuickSort.swift */; };
+		9345531226E79B5E00C0F4BE /* QuickSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345531126E79B5E00C0F4BE /* QuickSortExample.swift */; };
+		9345531326E79B5E00C0F4BE /* QuickSortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345531126E79B5E00C0F4BE /* QuickSortExample.swift */; };
 		934647CA26D7A57800C7FA93 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647C926D7A57800C7FA93 /* TreeNode.swift */; };
 		934647CB26D7A57800C7FA93 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647C926D7A57800C7FA93 /* TreeNode.swift */; };
 		934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934647CD26D7A7C200C7FA93 /* TreeExample.swift */; };
@@ -111,6 +115,8 @@
 		93422D5726DF9E9900138100 /* BinarySearchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchExample.swift; sourceTree = "<group>"; };
 		93422D5A26DFA5ED00138100 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		9345530B26E75B1200C0F4BE /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		9345530E26E778DE00C0F4BE /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		9345531126E79B5E00C0F4BE /* QuickSortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortExample.swift; sourceTree = "<group>"; };
 		934647C926D7A57800C7FA93 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		934647CD26D7A7C200C7FA93 /* TreeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeExample.swift; sourceTree = "<group>"; };
 		934647D026D7D31700C7FA93 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
@@ -237,6 +243,7 @@
 				935034A426E618260053039F /* MergeSort.swift */,
 				935034AA26E66F210053039F /* RadixSort.swift */,
 				9345530B26E75B1200C0F4BE /* HeapSort.swift */,
+				9345530E26E778DE00C0F4BE /* QuickSort.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -282,6 +289,7 @@
 				9347204126E5080F00D6A958 /* InsertionSortExample.swift */,
 				935034A726E61FC50053039F /* MergeSortExample.swift */,
 				935034AD26E673E50053039F /* RadixSortExample.swift */,
+				9345531126E79B5E00C0F4BE /* QuickSortExample.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -412,6 +420,7 @@
 				934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
 				9347203C26E5059600D6A958 /* SelectionSortExample.swift in Sources */,
 				9347204226E5080F00D6A958 /* InsertionSortExample.swift in Sources */,
+				9345531226E79B5E00C0F4BE /* QuickSortExample.swift in Sources */,
 				9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5B26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
@@ -420,6 +429,7 @@
 				934EE98A26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				93422D5126DF823F00138100 /* TrieExample.swift in Sources */,
 				9347203F26E5080200D6A958 /* InsertionSort.swift in Sources */,
+				9345530F26E778DE00C0F4BE /* QuickSort.swift in Sources */,
 				9328880F26CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 				935034AE26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793D26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
@@ -460,6 +470,7 @@
 				934647CF26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
 				9347203D26E5059600D6A958 /* SelectionSortExample.swift in Sources */,
 				9347204326E5080F00D6A958 /* InsertionSortExample.swift in Sources */,
+				9345531326E79B5E00C0F4BE /* QuickSortExample.swift in Sources */,
 				9351004326E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5C26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,
@@ -468,6 +479,7 @@
 				934EE98B26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				93422D5226DF823F00138100 /* TrieExample.swift in Sources */,
 				9347204026E5080200D6A958 /* InsertionSort.swift in Sources */,
+				9345531026E778DE00C0F4BE /* QuickSort.swift in Sources */,
 				9328881026CD01AE00F80BBF /* StructuresApp.swift in Sources */,
 				935034AF26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793E26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
