@@ -82,7 +82,10 @@ struct StructuresApp: App {
         //MergeSortExample.test()
         //RadixSortExample.test()
         //HeapExample.sort()
-        QuickSortExample.test()
+        //QuickSortExample.test()
+        
+        GraphExample.adjacencyList()
+        GraphExample.adjacencyMatrix()
 
     }
     var body: some Scene {

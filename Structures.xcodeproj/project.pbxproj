@@ -79,6 +79,18 @@
 		9351004026E22A9F009BD9CC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351003E26E22A9F009BD9CC /* PriorityQueue.swift */; };
 		9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */; };
 		9351004326E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */; };
+		9351DF2426E8DDFA00B09E72 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2326E8DDFA00B09E72 /* Graph.swift */; };
+		9351DF2526E8DDFA00B09E72 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2326E8DDFA00B09E72 /* Graph.swift */; };
+		9351DF2826E8EA1E00B09E72 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2726E8EA1E00B09E72 /* Vertex.swift */; };
+		9351DF2926E8EA1E00B09E72 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2726E8EA1E00B09E72 /* Vertex.swift */; };
+		9351DF2B26E8ED7100B09E72 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2A26E8ED7100B09E72 /* Edge.swift */; };
+		9351DF2C26E8ED7100B09E72 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2A26E8ED7100B09E72 /* Edge.swift */; };
+		9351DF2E26E8EFF000B09E72 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2D26E8EFF000B09E72 /* AdjacencyList.swift */; };
+		9351DF2F26E8EFF000B09E72 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF2D26E8EFF000B09E72 /* AdjacencyList.swift */; };
+		9351DF3126E8F8E700B09E72 /* GraphExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF3026E8F8E700B09E72 /* GraphExample.swift */; };
+		9351DF3226E8F8E700B09E72 /* GraphExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF3026E8F8E700B09E72 /* GraphExample.swift */; };
+		9351DF3426E8FD3300B09E72 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF3326E8FD3300B09E72 /* AdjacencyMatrix.swift */; };
+		9351DF3526E8FD3300B09E72 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351DF3326E8FD3300B09E72 /* AdjacencyMatrix.swift */; };
 		9355847226E0F10700D09F3C /* HeapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355847126E0F10700D09F3C /* HeapExample.swift */; };
 		9355847326E0F10700D09F3C /* HeapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355847126E0F10700D09F3C /* HeapExample.swift */; };
 		9356625126E357F000E8A301 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9356625026E357F000E8A301 /* BubbleSort.swift */; };
@@ -139,6 +151,12 @@
 		935034AD26E673E50053039F /* RadixSortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSortExample.swift; sourceTree = "<group>"; };
 		9351003E26E22A9F009BD9CC /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueExample.swift; sourceTree = "<group>"; };
+		9351DF2326E8DDFA00B09E72 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		9351DF2726E8EA1E00B09E72 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		9351DF2A26E8ED7100B09E72 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		9351DF2D26E8EFF000B09E72 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		9351DF3026E8F8E700B09E72 /* GraphExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExample.swift; sourceTree = "<group>"; };
+		9351DF3326E8FD3300B09E72 /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		9355847126E0F10700D09F3C /* HeapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapExample.swift; sourceTree = "<group>"; };
 		9356625026E357F000E8A301 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		9356625326E3794000E8A301 /* BubbleSortingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortingExample.swift; sourceTree = "<group>"; };
@@ -229,6 +247,7 @@
 				93422D4D26DF72D200138100 /* Trie.swift */,
 				93422D5A26DFA5ED00138100 /* Heap.swift */,
 				9351003E26E22A9F009BD9CC /* PriorityQueue.swift */,
+				9351DF2626E8EA1200B09E72 /* Graph */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -275,9 +294,22 @@
 				93422D5026DF823F00138100 /* TrieExample.swift */,
 				9355847126E0F10700D09F3C /* HeapExample.swift */,
 				9351004126E22DB2009BD9CC /* PriorityQueueExample.swift */,
+				9351DF3026E8F8E700B09E72 /* GraphExample.swift */,
 				9356625626E3794F00E8A301 /* Algorithms */,
 			);
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		9351DF2626E8EA1200B09E72 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				9351DF2326E8DDFA00B09E72 /* Graph.swift */,
+				9351DF2726E8EA1E00B09E72 /* Vertex.swift */,
+				9351DF2A26E8ED7100B09E72 /* Edge.swift */,
+				9351DF2D26E8EFF000B09E72 /* AdjacencyList.swift */,
+				9351DF3326E8FD3300B09E72 /* AdjacencyMatrix.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 		9356625626E3794F00E8A301 /* Algorithms */ = {
@@ -400,6 +432,7 @@
 				9356625126E357F000E8A301 /* BubbleSort.swift in Sources */,
 				935034A526E618260053039F /* MergeSort.swift in Sources */,
 				9345530C26E75B1200C0F4BE /* HeapSort.swift in Sources */,
+				9351DF3426E8FD3300B09E72 /* AdjacencyMatrix.swift in Sources */,
 				934EE98126D508A9004860AA /* Queue.swift in Sources */,
 				9328882526CD2D8900F80BBF /* LinkedList.swift in Sources */,
 				934EE98D26D53C1A004860AA /* RingBuffer.swift in Sources */,
@@ -415,6 +448,7 @@
 				934647D126D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
 				93422D5526DF9B3B00138100 /* BinarySearch.swift in Sources */,
 				9351003F26E22A9F009BD9CC /* PriorityQueue.swift in Sources */,
+				9351DF2B26E8ED7100B09E72 /* Edge.swift in Sources */,
 				93422D5826DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794026DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CE26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
@@ -429,8 +463,12 @@
 				934EE98A26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				93422D5126DF823F00138100 /* TrieExample.swift in Sources */,
 				9347203F26E5080200D6A958 /* InsertionSort.swift in Sources */,
+				9351DF2826E8EA1E00B09E72 /* Vertex.swift in Sources */,
 				9345530F26E778DE00C0F4BE /* QuickSort.swift in Sources */,
 				9328880F26CD01AE00F80BBF /* StructuresApp.swift in Sources */,
+				9351DF2426E8DDFA00B09E72 /* Graph.swift in Sources */,
+				9351DF3126E8F8E700B09E72 /* GraphExample.swift in Sources */,
+				9351DF2E26E8EFF000B09E72 /* AdjacencyList.swift in Sources */,
 				935034AE26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793D26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
 				9356793A26DE89A3008A8268 /* AVLNode.swift in Sources */,
@@ -450,6 +488,7 @@
 				9356625226E357F000E8A301 /* BubbleSort.swift in Sources */,
 				935034A626E618260053039F /* MergeSort.swift in Sources */,
 				9345530D26E75B1200C0F4BE /* HeapSort.swift in Sources */,
+				9351DF3526E8FD3300B09E72 /* AdjacencyMatrix.swift in Sources */,
 				934EE98226D508A9004860AA /* Queue.swift in Sources */,
 				9328882626CD2D8900F80BBF /* LinkedList.swift in Sources */,
 				934EE98E26D53C1A004860AA /* RingBuffer.swift in Sources */,
@@ -465,6 +504,7 @@
 				934647D226D7D31700C7FA93 /* BinaryTreeNode.swift in Sources */,
 				93422D5626DF9B3B00138100 /* BinarySearch.swift in Sources */,
 				9351004026E22A9F009BD9CC /* PriorityQueue.swift in Sources */,
+				9351DF2C26E8ED7100B09E72 /* Edge.swift in Sources */,
 				93422D5926DF9E9900138100 /* BinarySearchExample.swift in Sources */,
 				9356794126DE9130008A8268 /* AVLTree.swift in Sources */,
 				934647CF26D7A7C200C7FA93 /* TreeExample.swift in Sources */,
@@ -479,8 +519,12 @@
 				934EE98B26D528AA004860AA /* DoublyLinkedListExample.swift in Sources */,
 				93422D5226DF823F00138100 /* TrieExample.swift in Sources */,
 				9347204026E5080200D6A958 /* InsertionSort.swift in Sources */,
+				9351DF2926E8EA1E00B09E72 /* Vertex.swift in Sources */,
 				9345531026E778DE00C0F4BE /* QuickSort.swift in Sources */,
 				9328881026CD01AE00F80BBF /* StructuresApp.swift in Sources */,
+				9351DF2526E8DDFA00B09E72 /* Graph.swift in Sources */,
+				9351DF3226E8F8E700B09E72 /* GraphExample.swift in Sources */,
+				9351DF2F26E8EFF000B09E72 /* AdjacencyList.swift in Sources */,
 				935034AF26E673E50053039F /* RadixSortExample.swift in Sources */,
 				9356793E26DE8F30008A8268 /* AVLTreeExample.swift in Sources */,
 				9356793B26DE89A3008A8268 /* AVLNode.swift in Sources */,
