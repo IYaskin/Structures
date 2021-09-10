@@ -84,8 +84,11 @@ struct StructuresApp: App {
         //HeapExample.sort()
         //QuickSortExample.test()
         
-        GraphExample.adjacencyList()
-        GraphExample.adjacencyMatrix()
+//        GraphExample.adjacencyList()
+//        GraphExample.adjacencyMatrix()
+        
+        //BreadthFirstSearchExample.test()
+        DepthFirstSearchExample.test()
 
     }
     var body: some Scene {
