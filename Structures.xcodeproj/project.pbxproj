@@ -57,6 +57,10 @@
 		9348D37526EB892700C75A67 /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37326EB892700C75A67 /* DepthFirstSearch.swift */; };
 		9348D37726EB903F00C75A67 /* DepthFirstSearchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37626EB903F00C75A67 /* DepthFirstSearchExample.swift */; };
 		9348D37826EB903F00C75A67 /* DepthFirstSearchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37626EB903F00C75A67 /* DepthFirstSearchExample.swift */; };
+		9348D37A26EBC2EB00C75A67 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37926EBC2EB00C75A67 /* Dijkstra.swift */; };
+		9348D37B26EBC2EB00C75A67 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37926EBC2EB00C75A67 /* Dijkstra.swift */; };
+		9348D37D26EC035900C75A67 /* DijkstraExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37C26EC035900C75A67 /* DijkstraExample.swift */; };
+		9348D37E26EC035900C75A67 /* DijkstraExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348D37C26EC035900C75A67 /* DijkstraExample.swift */; };
 		934EE97A26D4F2E5004860AA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97926D4F2E5004860AA /* Stack.swift */; };
 		934EE97B26D4F2E5004860AA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97926D4F2E5004860AA /* Stack.swift */; };
 		934EE97D26D50090004860AA /* StackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934EE97C26D50090004860AA /* StackExample.swift */; };
@@ -148,6 +152,8 @@
 		9347204126E5080F00D6A958 /* InsertionSortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortExample.swift; sourceTree = "<group>"; };
 		9348D37326EB892700C75A67 /* DepthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
 		9348D37626EB903F00C75A67 /* DepthFirstSearchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearchExample.swift; sourceTree = "<group>"; };
+		9348D37926EBC2EB00C75A67 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		9348D37C26EC035900C75A67 /* DijkstraExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraExample.swift; sourceTree = "<group>"; };
 		934EE97926D4F2E5004860AA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		934EE97C26D50090004860AA /* StackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExample.swift; sourceTree = "<group>"; };
 		934EE98026D508A9004860AA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -345,6 +351,7 @@
 			children = (
 				935721B726EA2E9D00CD1BB1 /* BreadthFirstSearch.swift */,
 				9348D37326EB892700C75A67 /* DepthFirstSearch.swift */,
+				9348D37926EBC2EB00C75A67 /* Dijkstra.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -354,6 +361,7 @@
 			children = (
 				935721BB26EA723700CD1BB1 /* BreadthFirstSearchExample.swift */,
 				9348D37626EB903F00C75A67 /* DepthFirstSearchExample.swift */,
+				9348D37C26EC035900C75A67 /* DijkstraExample.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -460,6 +468,7 @@
 				934EE97D26D50090004860AA /* StackExample.swift in Sources */,
 				935034AB26E66F210053039F /* RadixSort.swift in Sources */,
 				9328881E26CD1E5A00F80BBF /* Node.swift in Sources */,
+				9348D37D26EC035900C75A67 /* DijkstraExample.swift in Sources */,
 				9328881126CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9356625826E37A6600E8A301 /* SelectionSort.swift in Sources */,
 				9356625126E357F000E8A301 /* BubbleSort.swift in Sources */,
@@ -490,6 +499,7 @@
 				9347203C26E5059600D6A958 /* SelectionSortExample.swift in Sources */,
 				9347204226E5080F00D6A958 /* InsertionSortExample.swift in Sources */,
 				9345531226E79B5E00C0F4BE /* QuickSortExample.swift in Sources */,
+				9348D37A26EBC2EB00C75A67 /* Dijkstra.swift in Sources */,
 				9351004226E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5B26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97A26D4F2E5004860AA /* Stack.swift in Sources */,
@@ -520,6 +530,7 @@
 				934EE97E26D50090004860AA /* StackExample.swift in Sources */,
 				935034AC26E66F210053039F /* RadixSort.swift in Sources */,
 				9328881F26CD1E5A00F80BBF /* Node.swift in Sources */,
+				9348D37E26EC035900C75A67 /* DijkstraExample.swift in Sources */,
 				9328881226CD01AE00F80BBF /* ContentView.swift in Sources */,
 				9356625926E37A6600E8A301 /* SelectionSort.swift in Sources */,
 				9356625226E357F000E8A301 /* BubbleSort.swift in Sources */,
@@ -550,6 +561,7 @@
 				9347203D26E5059600D6A958 /* SelectionSortExample.swift in Sources */,
 				9347204326E5080F00D6A958 /* InsertionSortExample.swift in Sources */,
 				9345531326E79B5E00C0F4BE /* QuickSortExample.swift in Sources */,
+				9348D37B26EBC2EB00C75A67 /* Dijkstra.swift in Sources */,
 				9351004326E22DB2009BD9CC /* PriorityQueueExample.swift in Sources */,
 				93422D5C26DFA5ED00138100 /* Heap.swift in Sources */,
 				934EE97B26D4F2E5004860AA /* Stack.swift in Sources */,

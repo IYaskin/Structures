@@ -33,3 +33,14 @@ struct PriorityQueue<Element: Equatable>: Queue {
         return heap.remove()
     }
 }
+
+extension PriorityQueue: CustomStringConvertible {
+    var description: String {
+        var heap1 = heap
+        var string = ""
+        while let element = heap1.remove() {
+            string += "\(element)<"
+        }
+        return "\(string)"
+    }
+}

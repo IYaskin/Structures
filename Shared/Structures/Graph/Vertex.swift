@@ -17,6 +17,7 @@ extension Vertex: Equatable where T: Equatable {}
 
 extension Vertex: CustomStringConvertible {
     var description: String {
-        return "\(index): \(data)"
+        //return "\(index): \(data)"
+        return "\(data)"
     }
 }

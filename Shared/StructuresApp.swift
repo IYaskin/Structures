@@ -88,7 +88,8 @@ struct StructuresApp: App {
 //        GraphExample.adjacencyMatrix()
         
         //BreadthFirstSearchExample.test()
-        DepthFirstSearchExample.test()
+        //DepthFirstSearchExample.test()
+        DijkstraExample.test()
 
     }
     var body: some Scene {
