@@ -89,7 +89,8 @@ struct StructuresApp: App {
         
         //BreadthFirstSearchExample.test()
         //DepthFirstSearchExample.test()
-        DijkstraExample.test()
+        //DijkstraExample.test()
+        PrimExample.test()
 
     }
     var body: some Scene {

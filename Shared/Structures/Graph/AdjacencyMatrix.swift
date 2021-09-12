@@ -8,7 +8,7 @@
 import Foundation
 
 class AdjacencyMatrix<T>: Graph {
-    private var vertices: [Vertex<T>] = []
+    var vertices: [Vertex<T>] = []
     private var weights: [[Double?]] = []
     
     init() {}
